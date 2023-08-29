@@ -3,8 +3,8 @@ package firstcode;
 class main{
     public static void main(String[] args){
 
-        int n = 5; //number of values in array foo
-        int[] foo = {0,1,2,3,4};
+        int n = 5; //number of values in array TERMINATOR
+        int[] TERMINATOR = {0,1,2,3,4};
 
         int m = 100;
         int[] bar = new int[m];
@@ -14,7 +14,7 @@ class main{
             bar[i] = i;
         }
 
-        System.out.println("The total number of even numbers in foo are: " + countEvenNum(foo,n));
+        System.out.println("The total number of even numbers in TERMINATOR are: " + countEvenNum(TERMINATOR,n));
         System.out.println("The total number of even numbers in bar are: " + countEvenNum(bar,m));
     }
 
